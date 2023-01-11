@@ -27,8 +27,7 @@ OneBtn.addEventListener("click", function() {
     FourBtn.style.color = "hsl(217, 12%, 63%)";
     FiveBtn.style.color = "hsl(217, 12%, 63%)";
     
-    RatingVal = 1
-    selectedRat.innerHTML = `You selected ${RatingVal} out of 5`
+    RatingVal = 1;
 })
 
 TwoBtn.addEventListener("click", function() {
@@ -45,8 +44,7 @@ TwoBtn.addEventListener("click", function() {
     FourBtn.style.color = "hsl(217, 12%, 63%)";
     FiveBtn.style.color = "hsl(217, 12%, 63%)";
 
-    RatingVal = 2
-    selectedRat.innerHTML = `You selected ${RatingVal} out of 5`
+    RatingVal = 2;
 })
 
 ThreeBtn.addEventListener("click", function() {
@@ -63,8 +61,7 @@ ThreeBtn.addEventListener("click", function() {
     FourBtn.style.color = "hsl(217, 12%, 63%)";
     FiveBtn.style.color = "hsl(217, 12%, 63%)";
 
-    RatingVal = 3
-    selectedRat.innerHTML = `You selected ${RatingVal} out of 5`
+    RatingVal = 3;
 })
 
 FourBtn.addEventListener("click", function() {
@@ -81,8 +78,7 @@ FourBtn.addEventListener("click", function() {
     ThreeBtn.style.color = "hsl(217, 12%, 63%)";
     FiveBtn.style.color = "hsl(217, 12%, 63%)";
     
-    RatingVal = 4
-    selectedRat.innerHTML = `You selected ${RatingVal} out of 5`
+    RatingVal = 4;
 })
 
 FiveBtn.addEventListener("click", function() {
@@ -99,8 +95,7 @@ FiveBtn.addEventListener("click", function() {
     ThreeBtn.style.color = "hsl(217, 12%, 63%)";
     FourBtn.style.color = "hsl(217, 12%, 63%)";
     
-    RatingVal = 5
-    selectedRat.innerHTML = `You selected ${RatingVal} out of 5`
+    RatingVal = 5;
 })
 
 
@@ -108,6 +103,7 @@ SubmitBtn.addEventListener("click", function () {
     if (RatingVal > 0) {
     TopContainer.style.display = "none";
     BottomContainer.style.display = "grid";
+    selectedRat.innerHTML = `You selected ${RatingVal} out of 5`
 }
 
 });
