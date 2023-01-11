@@ -19,13 +19,13 @@ for (let i = 0; i < numbersEl.length; i++) {
             selected.style.color = "hsl(217, 12%, 63%)";
         }
         button.style.background = "hsl(217, 12%, 63%)";
-        button.style.color = "white";
+        button.style.color = "hsl(0, 0%, 100%)";
         RatingVal = i+1;
     });
 }
 
 SubmitBtn.addEventListener("click", function () {
-    if (RatingVal > 0) {
+    if (RatingVal >= 1) {
     TopContainer.style.display = "none";
     BottomContainer.style.display = "grid";
     selectedRat.innerHTML = `You selected ${RatingVal} out of 5`
