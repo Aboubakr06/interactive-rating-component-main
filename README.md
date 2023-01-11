@@ -32,7 +32,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: ()
+- Solution URL: (https://www.frontendmentor.io/solutions/interactive-rating-component-g9Av4sxLDS)
 - Live Site URL: (https://nimble-lollipop-d62801.netlify.app/)
 
 ## My process
