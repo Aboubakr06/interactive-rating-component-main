@@ -40,6 +40,10 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+span {
+  white-space: pre; /* Preserves spaces */
+}
+
 img,
 picture,
 video,
@@ -180,14 +184,3 @@ h2 {
     color: var(--clr-primary-400);
     background-color: var(--clr-neutral-410);
 }
-
-/*display: hidden !!!*/
-.sr-only {
-    clip: rect(0 0 0 0); 
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap; 
-    width: 1px;
-  }

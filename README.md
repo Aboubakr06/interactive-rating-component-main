@@ -32,8 +32,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/interactive-rating-component-g9Av4sxLDS)
-- Live Site URL: (https://nimble-lollipop-d62801.netlify.app/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/interactive-rating-component-g9Av4sxLDS)
+- Live Site URL: [Live Site URL](https://nimble-lollipop-d62801.netlify.app/)
 
 ## My process
 
@@ -49,5 +49,4 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ## Author
 
 - Frontend Mentor - [@Aboubakr06](https://www.frontendmentor.io/profile/Aboubakr06)
-- Twitter - [@elbouzidi99](https://twitter.com/elbouzidi99)
 
